@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 84, 87);
+    font-family: 'Hubballi', cursive;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(1, 53, 54);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 25px;
+}
+
+h1, h3, h5{
+    color: antiquewhite;
+
+}
+
+.contact{
+    float: right;
+    padding: 25px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+
+
+}
+
+.contact a:hover{
+    color: orange;
+    
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid antiquewhite;
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: none;
+}
+
+/*---personal section---*/
+#personal-section{
+
+}
+
+.content{
+    margin-bottom: 30px;
+
+}
+
+.left{
+    width: 30%;
+    float: left;
+
+}
+
+.right{
+    width: 70%;
+    float: right;
+
+}
+
+p{
+    color: aquamarine
+    ;
+    text-align: justify;
+}
+
+.common-hr{
+  border: solid antiquewhite 1px;  
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.edu-right{
+    width: 35%;
+    float: left;
+}
+
+.edu-left{
+    width: 35%;
+    float: right;
+}
+
+.bottom-container{
+    background-color: lightskyblue;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.bottom-container a:hover{
+    text-decoration: underline;
+    cursor: grab;
+}
+
+#footer-p{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
